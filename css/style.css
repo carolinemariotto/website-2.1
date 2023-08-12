@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+root{
+    :root {
+        --color-primary: #6c63ff;
+        --color-success: #00cc00; /* Verde para sucesso */
+        --color-danger: #ff3333; /* Vermelho para perigo */
+        --color-danger-variant: #ff0000; /* Variante mais intensa de vermelho para perigo */
+        --color-warning: #ffcc00; /* Amarelo para aviso */
+        --color-white: #ffffff; /* Branco */
+        --color-black: #000000; /* Preto */
+        --color-bg: #f0f0f0; /* Fundo geral */
+        --color-bg1: #e0e0e0; /* Fundo secundário claro */
+        --color-bg2: #d0d0d0; /* Fundo secundário mais claro */
+      
+        
+        ---container-width-lg: 76%
+        ---container-width-md: 90%
+        ---container-width-sm: 94%
+
+        --transition: all 400ms ease;
+
+        
+    
+    
+
+    
+    
+    }
+      
+
+}
+
+body{
+    font-family: "Montserrat", sens-serif;
+    line-height: 1.7;
+    color: var(--color-white);
+    background: #1f2641;
+}
+.container{
+    width: var(---container-width-lg);
+    margin: 0 auto;
+}
+
+section {
+    padding:6rem 0;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5{
+    line-height: 1.2;
+}
+h1{
+    font-size: 2.4rem;
+
+}
+
+h2{
+    font-size: 2rem;
+    
+}
+
+h3{
+    font-size: 1.6rem;
+    
+}
+
+h4{
+    font-size: 1.3rem;
+    
+}
+
+a{
+    color: var(--color-white);
+}
+
+img {
+    width: 100%;
+    display: block;
+    object-fit: cover
+}
+
+.btn {
+    display: inline-block;
+    background-color: var(--color-white);
+    color: var(--color-black);
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    font-weight: 500px;
+}
+
